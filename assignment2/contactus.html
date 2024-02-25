@@ -1,0 +1,120 @@
+<!--Group 10:-->
+<!--Name: Sumit Jain (100890788)-->
+<!--Name: Yash (100892788)-->
+<!--Date of completion: 26-01-2024-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Group 10">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+
+    <!--CSS section-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./content/style.css">
+
+
+</head>
+<body>
+<header></header>
+<main class="container">
+    <h2>Contact us:</h2>
+
+    <address>
+        We appreciate your interest in Harmony Hub. Feel free to reach out to us for inquiries, feedback, or assistance.
+        Your satisfaction is our priority, and we are here to help.<br><br>
+
+        <div>
+            <div><i class="fas fa-map-marker-alt contactus-icon"></i>Harmony Hub, Shore Drive, British Columbia, Canada
+                - 123456
+            </div>
+            <div><i class="fas fa-phone mt-4 contactus-icon"></i>+1 222-123-7867</div>
+            <div><i class="fas fa-envelope mt-4 contactus-icon"></i>HarmonyHub@gmail.com</div>
+        </div>
+    </address>
+
+    <div class="row">
+        <div id="contact-form" class="col-xs-6">
+            <form id="contact-form-control" novalidate>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <input type="text" class="form-control" id="username" placeholder="Name" required>
+                        <div class="invalid-feedback">
+                            Invalid Name
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                            Invalid Email
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                        <div class="invalid-feedback">
+                            Invalid Subject
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <textarea class="form-control" id="message" rows="3" placeholder="Message" required></textarea>
+                        <div class="invalid-feedback">
+                            Invalid Message
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number"
+                               data-bv-callback-callback="checkPhoneNumber" required>
+                        <div class="invalid-feedback">
+                            Invalid Phone Number
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <button type="submit" class="btn btn-primary" id="submit-query">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="feedback-form" class="col-xs-3 offset-xs-3">
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-f17283f0-d20e-4d29-b8f1-4075a9a2aac2" data-elfsight-app-lazy></div>
+        </div>
+
+    </div>
+
+</main>
+<footer></footer>
+<div class="modal fade" id="contact-us-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Submission Successful</h5>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+<!--Scripting Section-->
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>
