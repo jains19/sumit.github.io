@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Community Potluck Picnic",
+        "image": "event1.jpg",
+        "description": "Join us on Saturday, March 10th, 2024, at Harmony Park for a delightful community potluck picnic. The festivities kick off at 12:00 PM and continue until 3:00 PM. Bring your favorite dish, and let's create a day filled with delicious food, uplifting music, and heartwarming community bonding. We invite you to share laughter and stories as we gather in the heart of our community for this joyous occasion."
+    },
+    {
+        "title": "Artisan Workshop Series: Painting",
+        "image": "event2.jpeg",
+        "description": "Discover the joy of painting at our Harmony Hub Art Studio on Wednesday, March 15th, 2024, from 6:30 PM to 8:30 PM. Join local artists for an acrylic painting workshop—perfect for all skill levels. Materials provided. Let your creativity flow!"
+    },
+    {
+        "title": "Community Wellness Walk",
+        "image": "event3.jpeg",
+        "description": "Embark on a journey to well-being on Saturday, March 24th, 2024, from 9:00 AM to 11:00 AM. Join us for a revitalizing morning walk along Harmony Trails, surrounded by scenic beauty. Bring your family, friends, and furry companions for a shared, healthy experience."
+    },
+    {
+        "title": "Community Garden Spring Planting",
+        "image": "event4.jpeg",
+        "description": "On Saturday, April 5th, 2024, from 10:00 AM to 12:00 PM, join us at Harmony Hub Community Garden for a hands-on gardening session. Let's cultivate together, planting seeds and nurturing our green space. Bring your gardening gloves and enthusiasm for a blooming community experience."
+    }
+
+]

@@ -1,0 +1,26 @@
+{
+  "users":
+          [
+            {
+              "DisplayName": "Sumit Jain",
+              "EmailAddress" : "jains@dcmail.ca",
+              "Username" : "jains",
+              "Password" : "123456"
+            },
+
+            {
+              "DisplayName": "Yash",
+              "EmailAddress" : "yashy@dcmail.ca",
+              "Username" : "yashy",
+              "Password" : "987654321"
+            },
+
+            {
+              "DisplayName": "Admin",
+              "EmailAddress" : "admin@dcmail.ca",
+              "Username" : "admin",
+              "Password" : "555555"
+            }
+
+          ]
+}
