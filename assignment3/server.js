@@ -7,7 +7,7 @@ const http_1 = __importDefault(require("http"));
 const fs_1 = __importDefault(require("fs"));
 const mime_types_1 = __importDefault(require("mime-types"));
 let lookup = mime_types_1.default.lookup;
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3030;
 const server = http_1.default.createServer((req, res) => {
     let path = req.url;
     if (path === "/" || path === "/home") {
