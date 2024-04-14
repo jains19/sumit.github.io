@@ -1,0 +1,43 @@
+{
+  "name": "week11-2",
+  "version": "1.0.0",
+  "description": "Repository for Week 11 ",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc"
+  },
+  "author": "Group 10",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@popperjs/core": "^2.11.8",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "cookie-parser": "^1.4.6",
+    "d3": "^7.9.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "http-errors": "^2.0.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^4.17.21",
+    "@types/fs-readfile-promise": "^3.0.4",
+    "@types/http-errors": "^2.0.4",
+    "@types/jquery": "^3.5.29",
+    "@types/mime-types": "^2.1.4",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

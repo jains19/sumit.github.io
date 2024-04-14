@@ -1,0 +1,19 @@
+{
+    "contacts": [
+        {
+            "DisplayName": "Sumit Jain",
+            "EmailAddress": "jains@dcmail.ca",
+            "ContactNumber": "+1234-567-890"
+        },
+        {
+            "DisplayName": "Yash",
+            "EmailAddress": "yashy@dcmail.ca",
+            "ContactNumber": "+1 345-786-000"
+        },
+        {
+            "DisplayName": "Admin",
+            "EmailAddress": "admin@dcmail.ca",
+            "ContactNumber": "+1 234-578-987"
+        }
+    ]
+}
